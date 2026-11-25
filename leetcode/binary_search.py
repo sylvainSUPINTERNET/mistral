@@ -13,6 +13,7 @@ Your solution must run in O(log n) time.
 nums = [-1, 0, 3, 5, 9, 12]
 target = 9
 
+# Considering the nums entry is sorted ASC
 def binary_search(nums, target):
     idx_left = 0
     idx_right = len(nums) - 1
