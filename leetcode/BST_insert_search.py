@@ -82,6 +82,7 @@ class BST:
     # rule : left -> node -> right
     # en gros on va tout à gauche tant qu'on peut, max arrivé => on garde la value et on pop la stack ( avoir le parent du dernier explorer ) 
     # puis on explore celui à droite et on répète cette logique
+    # DFS
     def inorder(self) -> list[int]:
         result = []
         stack = [self.root] if self.root is not None else []
